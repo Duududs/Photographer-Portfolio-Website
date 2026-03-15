@@ -4,8 +4,6 @@
 
 Este projeto é um **site institucional / portfólio para uma fotógrafa especializada em casais e casamentos**, desenvolvido com foco em **apresentação visual do trabalho, experiência do usuário e captação de clientes**.
 
-O objetivo do site é apresentar o estilo da fotógrafa, exibir o portfólio e facilitar o contato com novos clientes interessados em ensaios ou cobertura de casamento.
-
 ---
 
 #### [◉°] Funcionalidades
@@ -68,10 +66,10 @@ Este projeto foi desenvolvido para praticar e demonstrar habilidades em:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/pizzaria-do-chefe
+git clone https://github.com/Duududs/Photographer-Portfolio-Website
 
 # Entrar na pasta do projeto
-cd pizzaria-do-chefe
+cd Photographer-Portfolio-Website
 
 # Instalar dependências
 npm install

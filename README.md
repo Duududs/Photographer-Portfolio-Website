@@ -94,4 +94,14 @@ Deploy: https://photographer-portfolio-website-phi.vercel.app/#
 
 <img src="/public/assets/preview.png" alt="Preview do projeto" />
 
+<h1 align="center"> Me apoie com um coffe!! </h1>
+
+<p align="center"> Se você curtiu meus projetos e quer apoiar meu trabalho: </p>
+
+<p align="center">
+  <a href="https://ko-fi.com/https://ko-fi.com/duududs">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi">
+  </a>
+</p>
+
 <h1 align="center"> ────୨ৎ──── </h1>

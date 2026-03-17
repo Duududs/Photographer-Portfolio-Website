@@ -99,7 +99,7 @@ Deploy: https://photographer-portfolio-website-phi.vercel.app/#
 <p align="center"> Se você curtiu meus projetos e quer apoiar meu trabalho: </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/https://ko-fi.com/duududs">
+  <a href="https://ko-fi.com/duududs">
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi">
   </a>
 </p>

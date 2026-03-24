@@ -4,8 +4,6 @@
 
 Este projeto é um **site institucional / portfólio para uma fotógrafa especializada em casais e casamentos**, desenvolvido com foco em **apresentação visual do trabalho, experiência do usuário e captação de clientes**.
 
-O objetivo do site é apresentar o estilo da fotógrafa, exibir o portfólio e facilitar o contato com novos clientes interessados em ensaios ou cobertura de casamento.
-
 ---
 
 #### [◉°] Funcionalidades
@@ -68,10 +66,10 @@ Este projeto foi desenvolvido para praticar e demonstrar habilidades em:
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/pizzaria-do-chefe
+git clone https://github.com/Duududs/Photographer-Portfolio-Website
 
 # Entrar na pasta do projeto
-cd pizzaria-do-chefe
+cd Photographer-Portfolio-Website
 
 # Instalar dependências
 npm install
@@ -84,7 +82,7 @@ npm run dev
 
 #### [◉°] Acesso ao Projeto
 
-Deploy:
+Deploy: https://photographer-portfolio-website-phi.vercel.app/#
 
 ---
 
@@ -95,5 +93,15 @@ Deploy:
 #### [◉°] Preview
 
 <img src="/public/assets/preview.png" alt="Preview do projeto" />
+
+<h1 align="center"> Me apoie com um coffe!! </h1>
+
+<p align="center"> Se você curtiu meus projetos e quer apoiar meu trabalho: </p>
+
+<p align="center">
+  <a href="https://ko-fi.com/duududs">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi">
+  </a>
+</p>
 
 <h1 align="center"> ────୨ৎ──── </h1>

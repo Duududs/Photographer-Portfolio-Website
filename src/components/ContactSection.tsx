@@ -16,7 +16,9 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Mensagem enviada com sucesso! Entrarei em contato em breve.");
+    toast.success(
+      "Mensagem enviada com sucesso! Entrarei em contato em breve.",
+    );
     setFormData({
       name: "",
       email: "",
@@ -28,7 +30,9 @@ const ContactSection = () => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >,
   ) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
@@ -38,7 +42,10 @@ const ContactSection = () => {
   const mutedFieldClasses = "text-muted-foreground/50";
 
   return (
-    <section id="contact" className="px-6 pb-12 pt-24 md:px-10 md:pb-16 md:pt-32">
+    <section
+      id="contact"
+      className="px-6 pb-12 pt-24 md:px-10 md:pb-16 md:pt-32"
+    >
       <div className="mx-auto max-w-3xl">
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -51,7 +58,7 @@ const ContactSection = () => {
             Agende seu ensaio
           </h2>
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
-            Conte-me sobre a historia de voces
+            Conte-me sobre a história de vocês
           </p>
         </motion.div>
 
@@ -107,17 +114,27 @@ const ContactSection = () => {
             className={`${inputClasses} appearance-none cursor-pointer ${!formData.package ? mutedFieldClasses : ""}`}
           >
             <option value="">Selecione um pacote (opcional)</option>
-            <option value="essencial">Ensaio Essencial - A partir de R$450</option>
-            <option value="classico">Ensaio Classico - A partir de R$750</option>
-            <option value="ensaio-completo">Ensaio Completo - A partir de R$1.200</option>
+            <option value="essencial">
+              Ensaio Essencial - A partir de R$450
+            </option>
+            <option value="classico">
+              Ensaio Classico - A partir de R$750
+            </option>
+            <option value="ensaio-completo">
+              Ensaio Completo - A partir de R$1.200
+            </option>
             <option value="civil">Casamento Civil - A partir de R$1.200</option>
-            <option value="celebracao">Casamento Celebracao - A partir de R$2.500</option>
-            <option value="wedding-day">Casamento Wedding Day - A partir de R$4.800</option>
+            <option value="celebracao">
+              Casamento Celebracao - A partir de R$2.500
+            </option>
+            <option value="wedding-day">
+              Casamento Wedding Day - A partir de R$4.800
+            </option>
           </select>
 
           <textarea
             name="message"
-            placeholder="Conte um pouco sobre voces e o ensaio dos sonhos..."
+            placeholder="Conte um pouco sobre vocês e o ensaio dos sonhos..."
             value={formData.message}
             onChange={handleChange}
             rows={4}

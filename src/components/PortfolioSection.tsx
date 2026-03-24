@@ -15,13 +15,19 @@ const portfolioItems = [
   { src: "/assets/portfolio-5.jpg", alt: "Casal em rua europeia" },
   { src: "/assets/portfolio-6.jpg", alt: "Momento intimo no sofa" },
   { src: "/assets/portfolio-7.jpg", alt: "Retrato de casal em nova sessao" },
-  { src: "/assets/portfolio-8.jpg", alt: "Nova fotografia de casal ao ar livre" },
+  {
+    src: "/assets/portfolio-8.jpg",
+    alt: "Nova fotografia de casal ao ar livre",
+  },
   { src: "/assets/portfolio-9.jpg", alt: "Novo momento registrado do casal" },
 ];
 
 const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="px-6 pb-24 pt-14 md:px-10 md:pb-32 md:pt-16">
+    <section
+      id="portfolio"
+      className="px-6 pb-24 pt-14 md:px-10 md:pb-32 md:pt-16"
+    >
       <div className="mx-auto max-w-7xl">
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -30,10 +36,13 @@ const PortfolioSection = () => {
           transition={transition}
           className="mb-12 md:mb-16"
         >
-          <p className="text-[11px] uppercase tracking-[0.35em] text-muted-foreground">Portfolio</p>
+          <p className="text-[11px] uppercase tracking-[0.35em] text-muted-foreground">
+            Portfólio
+          </p>
           <div className="mt-4 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <h2 className="max-w-2xl font-serif text-4xl italic leading-none text-foreground md:text-6xl">
-              Momentos unicos, registrados pela lente e apresentados em sua forma mais autentica.
+              Momentos únicos, registrados pela lente e apresentados em sua
+              forma mais autêntica.
             </h2>
           </div>
         </motion.div>
@@ -48,7 +57,9 @@ const PortfolioSection = () => {
               transition={{ ...transition, delay: i * 0.08 }}
               className="mb-6 break-inside-avoid md:mb-8"
             >
-              <div className={`overflow-hidden bg-stone-100 shadow-soft ${item.frameClassName || ""}`}>
+              <div
+                className={`overflow-hidden bg-stone-100 shadow-soft ${item.frameClassName || ""}`}
+              >
                 <img
                   src={item.src}
                   className={`block h-auto w-full ${item.imgClassName || ""}`}

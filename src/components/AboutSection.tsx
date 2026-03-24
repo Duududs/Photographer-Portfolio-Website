@@ -41,20 +41,24 @@ const AboutSection = () => {
           viewport={{ once: true }}
           transition={{ ...transition, delay: 0.2 }}
         >
-          <p className="mb-4 text-xs uppercase tracking-[0.2em] text-muted-foreground">Sobre mim</p>
+          <p className="mb-4 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+            Sobre mim
+          </p>
           <h2 className="mb-8 font-serif text-4xl leading-tight text-foreground md:text-5xl">
-            Cada foto carrega um momento unico.
+            Cada foto carrega um momento único.
           </h2>
           <p className="mb-6 leading-relaxed text-muted-foreground">
-            Com mais de uma decada registrando historias de amor ao redor do mundo, desenvolvi um
-            olhar atento e sensivel para os momentos que realmente importam. Minha fotografia busca
-            capturar conexoes genuinas, sem forcar poses ou interferir no que acontece
+            Com mais de uma década registrando histórias de amor ao redor do
+            mundo, desenvolvi um olhar atento e sensível para os momentos que
+            realmente importam. Minha fotografia busca capturar conexões
+            genuínas, sem forçar poses ou interferir no que acontece
             naturalmente.
           </p>
           <p className="mb-8 leading-relaxed text-muted-foreground">
-            Cada ensaio e unico, porque cada casal tem sua propria historia. Meu objetivo e criar
-            um ambiente leve e confortavel, onde voces possam simplesmente ser quem sao, enquanto a
-            camera registra com sinceridade os momentos que tornam esse dia especial.
+            Cada ensaio é único, porque cada casal tem sua própria história. Meu
+            objetivo é criar um ambiente leve e confortável, onde vocês possam
+            simplesmente ser quem são, enquanto a câmera registra com
+            sinceridade os momentos que tornam esse dia especial.
           </p>
           <a
             href="#contact"
